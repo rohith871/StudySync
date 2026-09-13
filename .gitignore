@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment Secrets
+.env
+
+# Local Databases & Vector Stores
+*.db
+*.sqlite
+studysync.db
+chroma_db/
+
+# IDE Settings
+.vscode/
+.idea/
